@@ -39,7 +39,7 @@ You have 14 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 In this workshop, we are going to learn some basic commands in **[Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html)**, an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points. 
 
-Throughout the lessonsin this workshop, we will interact with the Pandas library using **[Jupyter Notebooks](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#3-working-with-jupyter-notebook)** to analyze a **[dataset](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#1-the-dataset-and-ethical-considerations)** on refugee arrivals to the United States between 2005 and 2015. Specifically, you will learn how to:
+Throughout the lessons in this workshop, we will interact with the Pandas library using **[Jupyter Notebooks](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#3-working-with-jupyter-notebook)** to analyze a **[dataset](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#1-the-dataset-and-ethical-considerations)** on refugee arrivals to the United States between 2005 and 2015. Specifically, you will learn how to:
 
 
 
