@@ -170,7 +170,7 @@ _Naming your Jupyter notebook file_
 
 Even though Jupyter Notebook doesn’t force you to do so, it is very important to name your file, or you will end up later with a bunch of untitled files and you will have no idea what they are about. In the top left, click on the word Untitled and give your file a name such as “intro_pandas”.
 
-![Name Jupyter Notebook](images/6.png)
+![Name Jupyter Notebook](images/6.jpeg)
 
 
 
