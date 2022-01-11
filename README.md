@@ -39,19 +39,19 @@ You have 14 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 In this workshop, we are going to learn some basic commands in **[Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html)**, an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points. 
 
-Throughout the **[lessons](https://pandas.commons.gc.cuny.edu/lessons/)** in this workshop, we will interact with the Pandas library using **[Jupyter Notebooks](https://pandas.commons.gc.cuny.edu/3-working-with-jupyter-notebook/)** to analyze a **[dataset](https://pandas.commons.gc.cuny.edu/1-the-dataset-and-ethical-considerations/)** on refugee arrivals to the United States between 2005 and 2015. Specifically, you will learn how to:
+Throughout the lessonsin this workshop, we will interact with the Pandas library using **[Jupyter Notebooks](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#3-working-with-jupyter-notebook)** to analyze a **[dataset](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#1-the-dataset-and-ethical-considerations)** on refugee arrivals to the United States between 2005 and 2015. Specifically, you will learn how to:
 
 
 
-* **[Import Pandas and read in a CSV file as a DataFrame](https://pandas.commons.gc.cuny.edu/4-getting-started-with-pandas/)**
-* **[Explore your data, including displaying and sampling the data](https://pandas.commons.gc.cuny.edu/5-data-exploration/)**
-* **[Clean your data, including checking for duplicates and converting data types](https://pandas.commons.gc.cuny.edu/6-basic-data-cleaning/)**
-* **[Review and interpret summary statistics](https://pandas.commons.gc.cuny.edu/7-summary-statistics/)**
-* **[Filter your data, including renaming, selecting, dropping, and adding columns](https://pandas.commons.gc.cuny.edu/8-rename-select-drop-and-add-new-columns/)**
-* **[Analyze your data by sorting columns, grouping columns, and counting values](https://pandas.commons.gc.cuny.edu/9-sort-columns-groupby-columns-count-values/)** 
-* **[Visualize your data with basic bar charts, pie charts, and time series](https://pandas.commons.gc.cuny.edu/10-basic-data-visualizations/)**
-* **[Write a DataFrame to a CSV file](https://pandas.commons.gc.cuny.edu/11-write-to-csv/)**
-* **[Build your Pandas skills with the Pandas documentation and other resources](https://pandas.commons.gc.cuny.edu/12-building-your-pandas-skills-with-the-pandas-documentation-and-other-resources/)**
+* **[Import Pandas and read in a CSV file as a DataFrame](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#4-getting-started-with-pandas)**
+* **[Explore your data, including displaying and sampling the data](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#5-data-exploration)**
+* **[Clean your data, including checking for duplicates and converting data types](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#6-basic-data-cleaning)**
+* **[Review and interpret summary statistics](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#7-summary-statistics)**
+* **[Filter your data, including renaming, selecting, dropping, and adding columns](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#8-rename-select-drop-and-add-new-columns)**
+* **[Analyze your data by sorting columns, grouping columns, and counting values](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#9-sort-columns-groupby-columns--count-values)** 
+* **[Visualize your data with basic bar charts, pie charts, and time series](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#9-sort-columns-groupby-columns--count-values)**
+* **[Write a DataFrame to a CSV file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#11-write-to-csv)**
+* **[Build your Pandas skills with the Pandas documentation and other resources](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/README.md#12-building-your-pandas-skills-with-the-pandas-documentation-and-other-resources)**
 
 
 ---
