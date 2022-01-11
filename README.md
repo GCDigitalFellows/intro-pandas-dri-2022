@@ -174,22 +174,12 @@ To get started with Jupyter notebook, you must first launch Jupyter Notebook fro
 
 Find “Anaconda Navigator” in the applications folder on your computer, and double-click on the app to open it.
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![Find Anaconda](images/1.png)
 
 
 Once Anaconda Navigator opens, you can launch Jupyter Notebook by clicking the “Launch” button.
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![Launch Anaconda](images/2.png)
 
 
 OR, launch Jupyter Notebook from a Terminal or Powershell by running:
@@ -204,24 +194,11 @@ _Creating a new Jupyter notebook file_
 
 Once you’ve launched Jupyter Notebook, you can create the Jupyter notebook file to run the workshop. From the Jupyter Home Tab in your Browser, find the  “pandas_workshop” folder saved on your Desktop, and start a New Python Notebook using the New button in the upper right corner. Running and saving your Jupyter Notebook from the same directory as your file will keep your project organized and will make it easier to read in your files. 
 
+![Create Jupyter Notebook](images/3.png)
 
+![Create Jupyter Notebook](images/4.png)
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
+![Create Jupyter Notebook](images/5.png)
 
 
 ---
@@ -231,12 +208,7 @@ _Naming your Jupyter notebook file_
 
 Even though Jupyter Notebook doesn’t force you to do so, it is very important to name your file, or you will end up later with a bunch of untitled files and you will have no idea what they are about. In the top left, click on the word Untitled and give your file a name such as “intro_pandas”.
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.jpg "image_tooltip")
+![Name Jupyter Notebook](images/6.png)
 
 
 
@@ -321,13 +293,7 @@ To display the DataFrame, we can run a cell with the variable name of the DataFr
 refugee_df
 ```
 
-
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+![refugee_df](images/7.png)
 
 
 Let’s take a look at a few elements in this DataFame: 
@@ -355,28 +321,13 @@ We can also display the first _n_ rows of the DataFrame with the .head() method
 ```
 refugee_df.head(2)
 ```
-
-
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
+![refugee_df](images/8.png)
 
 ```
 refugee_df.head(15)
 ```
 
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
+![refugee_df](images/9.png)
 
 
 ---
@@ -389,13 +340,7 @@ We can also look at a random sample of data with the .sample() method
 refugee_df.sample(15)
 ```
 
-
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
+![refugee_df](images/10.png)
 
 
 ---
@@ -420,14 +365,7 @@ We can get information about the columns in the DataFrame by using the .info() m
 ```
 refugee_df.info()
 ```
-
-
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
+![refugee_df](images/11.png)
 
 
 This report tells us how many non-null, or non-blank, values are in each column, as well as what type of data is in each column. 
@@ -511,13 +449,7 @@ We can then check to see if the data type was properly converted using the .dtyp
 refugee_df.dtypes
 ```
 
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
+![refugee_df](images/12.png)
 
 
 As we can see, the data in the “year” column was successfully transformed into the datetime64 data type.
@@ -533,14 +465,7 @@ As part of our data cleaning process, we want to check for duplicate rows. We ca
 ```
 refugee_df[refugee_df.duplicated(keep=False)]
 ```
-
-
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
+![refugee_df](images/13.png)
 
 
 Looks like we have a few duplicate rows in our dataset. 
@@ -560,13 +485,7 @@ We can check to see if the command got rid of the duplicate rows by running the 
 refugee_df[refugee_df.duplicated(keep=False)]
 ```
 
-
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
+![refugee_df](images/14.png)
 
 
 Great news! We successfully removed our duplicate rows!
@@ -596,13 +515,7 @@ To calculate the summary statistics for the columns in our DataFrame, we can use
 refugee_df.describe()
 ```
 
-
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
+![refugee_df](images/15.png)
 
 
 
@@ -610,13 +523,7 @@ refugee_df.describe()
 refugee_df.describe(include='all', datetime_is_numeric=True)
 ```
 
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
+![refugee_df](images/16.png)
 
 
 What can we glean from these summary statistics? 
@@ -641,13 +548,7 @@ To see a full list of the columns in our DataFrame, we can run the following com
 refugee_df.columns
 ```
 
-
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
+![refugee_df](images/17.png)
 
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
@@ -664,13 +565,7 @@ To improve the readability of our dataset, we can rename columns. In our case, l
 refugee_df=refugee_df.rename(columns={'dest_state': 'state','dest_city':'city' })
 ```
 
-
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
+![refugee_df](images/18.png)
 
 
 ---
@@ -685,13 +580,7 @@ Let’s say we wanted to view data from just one column in the DataFrame. To do 
 refugee_df[['state']]
 ```
 
-
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
+![refugee_df](images/19.png)
 
 
 Here we use double brackets around the column name to transform the column from a Series object into a DataFrame. Basically, the interior brackets are for lists, and the outside brackets are indexing operators. If you are curious to see the difference, try the following command instead: refugee_df[‘state’]. 
@@ -703,13 +592,7 @@ To view additional columns at the same time, you can add them to the list within
 refugee_df[['state','city']]
 ```
 
-
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
+![refugee_df](images/20.png)
 
 
 ---
@@ -724,13 +607,7 @@ To remove a column from the DataFrame, we can use the .drop() method and include
 refugee_drop_df = refugee_df.drop(columns="city")
 ```
 
-
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
+![refugee_df](images/21.png)
 
 
 ---
@@ -751,11 +628,7 @@ refugee_df['percent_total'] = (refugee_df['arrivals'] / refugee_df['arrivals'].s
 * _Note: refugee_df[‘arrivals’].sum() calculates the sum of all the values in the arrivals column._ 
 
 
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
+![refugee_df](images/22.png)
 
 
 You can read the command we just ran as: create a new column that calculates the number of arrivals in a row divided by the total number of arrivals in the dataset, times 100. The result of this calculation will equal the percentage of total refugee arrivals for each row.
@@ -808,13 +681,7 @@ For example, we can sort the DataFrame by the percentages of total refugee arriv
 refugee_df.sort_values(by='percent_total', ascending=False)[:15]
 ```
 
-
-
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
+![refugee_df](images/23.png)
 
 
 Note: In the command above, we used the “by=” parameter to specify that the data be sorted according to the “percent_total” column and we added the “ascending=False” parameter in order to request that the data be displayed with the highest percentage first. By default, Pandas will sort in “ascending” order, from the smallest value to the largest value. We also added a Python list slice (i.e., [:15]) to view just the top 15 rows.
@@ -832,12 +699,7 @@ refugee_df.groupby('origin')
 ```
 
 
-
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.png "image_tooltip")
+![refugee_df](images/24.png)
 
 
 This command created a Groupby object—grouped data—that we can use to perform calculations such as counting the number of non-blank values in each column for each arrival by country of origin.
@@ -849,13 +711,7 @@ Next, we will use the following command to count the number of refugee arrivals 
 refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20]
 ```
 
-
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
+![refugee_df](images/25.png)
 
 
 These results show us the total number of arrivals by country of origin across the 2005-2015 period, in descending order, sliced for the top 20 results. 
@@ -883,12 +739,7 @@ refugee_df['state'].value_counts()
 ```
 
 
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
+![refugee_df](images/26.png)
 
 
 These results show us how many refugees were resettled in each state across the 2005-2015 period. We can see the full list of states noted in the DataFrame, and these include the District of Columbia, Puerto Rico and Guam. We can also note that Wyoming is missing from the list, which can be confirmed by filtering the DataFrame to select only certain values. 
@@ -898,13 +749,7 @@ These results show us how many refugees were resettled in each state across the 
 refugee_df[refugee_df['state'] == 'Wyoming']
 ```
 
-
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
+![refugee_df](images/27.png)
 
 
 ---
@@ -945,13 +790,7 @@ For example, we can visualize the data we got from our Groupby command looking a
 refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20].plot(kind='bar', title='Total number of refugee arrivals in the U.S. \n by country of origin')
 ```
 
-
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
+![refugee_df](images/28.png)
 
 
 Let’s unpack the command to better understand these results:
@@ -978,13 +817,7 @@ We can also visualize the data as a pie chart:
 refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20].plot(kind='pie', title='Total number of refugee arrivals in the U.S. \n by country of origin')
 ```
 
-
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
+![refugee_df](images/29.png)
 
 
 In this case, the parameter  within the .plot() method specifying the kind of chart we want changed from “bar” in the previous command to “pie”. 
@@ -1027,11 +860,7 @@ total_arrivals_by_year.plot(kind='line', title="Total Number of Refugee Arrivals
 In this command, we are adding the .plot() method to request a chart, and specifying that we want a line graph with the “kind=line” parameter. We are also giving the chart a title with the “title=’Total Number of Refugee Arrivals by Year’” parameter. 
 
 
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
+![refugee_df](images/30.png)
 
 
 
@@ -1061,18 +890,10 @@ Let’s say you wanted to find out more about the .sort_values method we used in
 * You could first search for .sort_values on the **[Pandas documentation website](https://pandas.pydata.org/)** and navigate to the “**[pandas.DataFrame.sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html?highlight=sort_values#pandas-dataframe-sort-values)**” documentation page.
 * Scroll through the page for the info, and look at the second section for examples of how to use the method and its various parameters. 
 
+![refugee_df](images/31.png)
 
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
-
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image32.png "image_tooltip")
+![refugee_df](images/32.png)
 
 
 
