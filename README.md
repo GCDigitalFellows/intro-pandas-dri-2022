@@ -832,7 +832,7 @@ To output a new CSV file, we can use the .to_csv method with a name for the file
 
 
 ```
-refugee_df.to_csv("Desktop/pandas_workshop/new_refugee.csv", encoding='utf-8', index=False)
+refugee_df.to_csv("new_refugee.csv", encoding='utf-8', index=False)
 ```
 
 
