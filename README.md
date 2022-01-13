@@ -398,7 +398,7 @@ Next, we can run the command below to convert the data type:
 
 
 ```
-refugee_df['year'] = pd.to_datetime(refugee_df['year'], format='%Y')
+refugee_df['year'] = pd.to_datetime(refugee_int, format='%Y')
 ```
 
 
