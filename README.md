@@ -176,10 +176,10 @@ Even though Jupyter Notebook doesn’t force you to do so, it is very important 
 
 # **4. Getting started with Pandas**
 
-Pandas is a Python software library
-The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals
-You can think of it as a FREE equivalent to Stata or SPSS for data manipulation and analysis. It is also more powerful than Excel
-Knowing how to use Pandas is important if you plan on working with data organized in spreadsheets (either quantitative or qualitative)
+* Pandas is a Python software library
+* The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals
+* You can think of it as a FREE equivalent to Stata or SPSS for data manipulation and analysis. It is also more powerful than Excel
+* Knowing how to use Pandas is important if you plan on working with data organized in spreadsheets (either quantitative or qualitative)
 
 
 _Import Pandas_
