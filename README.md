@@ -788,7 +788,9 @@ For example, we can visualize the data we got from our Groupby command looking a
 
 ```
 refugee_origin= refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20]
+```
 
+Next, let's add the plot method to our refugee_count variable with the following parameters: kind=’bar’ because we want a bar chart, and title= Total number of refugee arrivals in the U.S. by country of origin
 
 ```
 refugee_origin.plot(kind='bar', title='Total number of refugee arrivals in the U.S. \n by country of origin')
