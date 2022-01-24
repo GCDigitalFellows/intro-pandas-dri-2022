@@ -176,6 +176,12 @@ Even though Jupyter Notebook doesn’t force you to do so, it is very important 
 
 # **4. Getting started with Pandas**
 
+Pandas is a Python software library
+The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals
+You can think of it as a FREE equivalent to Stata or SPSS for data manipulation and analysis. It is also more powerful than Excel
+Knowing how to use Pandas is important if you plan on working with data organized in spreadsheets (either quantitative or qualitative)
+
+
 _Import Pandas_
 
 In the first blank cell, type the following command to import the Pandas library into our Jupyter Notebook:
@@ -688,6 +694,39 @@ Let’s unpack the command to better understand these results:
 * .sort_values(ascending=False): This method specifies how we want our output to be sorted. We include the ascending=False parameter in order to request that the data be displayed with the highest percentage first.
 * [:20]: This Python slide specifies that we just want to see the top 20 rows.
 
+What would it look like if we didn’t stack the commands? 
+* We could break down this command into smaller chunks by defining variables for each portion of the stacked command. 
+* First, we can define a variable for our Groupby object
+
+```
+refugee_groupby=refugee_df.groupby('origin')
+```
+* Next, we can define a variable isolating the “arrivals” column for the Groupby object we defined in the previous step represented by the refugee_groupby variable:
+
+```
+refugee_groupby_arrivals=refugee_groupby['arrivals']
+```
+
+* Next, we can apply the count method to the refugee_groupby_arrivals variable to count the total number of refugee arrivals by country of origin:
+
+```
+refugee_count= refugee_groupby_arrivals.count()
+```
+
+* Next, we can apply the sort_values method with the ascending=False parameter to the refugee_count variable to sort our output in descending order:
+
+```
+refugee_sort= refugee_count.sort_values(ascending=False)
+```
+
+Finally, we ask Python to display the top 20 values:
+
+```
+refugee_sort[:20]
+```
+
+As you can see, we get the same results as our stacked command. However, the process of getting to this result is far more cumbersome. This is why stacking commands is a useful feature in Pandas
+
 
 ---
 
@@ -745,11 +784,14 @@ We can specify the title with the title= parameter and the kind of plot by alter
 * ‘hexbin’ for hexagonal bin plots
 * ‘pie’ for pie plots
 
-For example, we can visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a bar chart:
+For example, we can visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a bar chart. First, let's set our Groupby command from lesson 10 equal to a new variable. This will make it easier to visualize the results in different kinds of charts. 
+
+```
+refugee_origin= refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20]
 
 
 ```
-refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20].plot(kind='bar', title='Total number of refugee arrivals in the U.S. \n by country of origin')
+refugee_origin.plot(kind='bar', title='Total number of refugee arrivals in the U.S. \n by country of origin')
 ```
 
 ![refugee_df](images/28.png)
@@ -759,7 +801,7 @@ Let’s unpack the command to better understand these results:
 
 
 
-* **refugee_df.groupby(‘origin’)[‘arrivals’].count().sort_values(ascending=False)[:20]**: This is the same command we used in lesson 7 to count the number of refugee arrivals by country of origin, with the output showing the top twenty rows sorted by descending order: 
+* **refugee_df.groupby(‘origin’)[‘arrivals’].count().sort_values(ascending=False)[:20]**: This is the same command we used in lesson 10 to count the number of refugee arrivals by country of origin, with the output showing the top twenty rows sorted by descending order: 
     * We have three stacked methods here: .groupby(), .count(), and .sort_values(). 
     * groupby(‘origin’)[‘arrivals’]: For the Groupby object we defined in lesson 7, groupby(‘origin’), we are isolating the “arrivals” column. Basically, we are asking to view the number of refugee arrivals by country of origin. 
     * .count(): This method counts non-blank cells for each column or row. The results we see in the output show the total number of refugee arrivals by country of origin. 
@@ -776,7 +818,7 @@ We can also visualize the data as a pie chart:
 
 
 ```
-refugee_df.groupby('origin')['arrivals'].count().sort_values(ascending=False)[:20].plot(kind='pie', title='Total number of refugee arrivals in the U.S. \n by country of origin')
+refugee_origin.plot(kind='pie', title='Total number of refugee arrivals in the U.S. \n by country of origin')
 ```
 
 ![refugee_df](images/29.png)
@@ -837,6 +879,7 @@ refugee_df.to_csv("new_refugee.csv", encoding='utf-8', index=False)
 
 
 In addition to a filename, we’re also specifying that the encoding is utf-8 and that the Index (the bolded left-most column) is not included in the CSV file.
+Since we saved our Jupyter Notebook in the same folder as our dataset, we don’t need to specify the file directory Desktop and pandas_workshop. However, if you did want to save this file in a different folder, you’d have to specify the different file directory
 
 
 # **12. Building your Pandas skills with the Pandas documentation and other resources**
